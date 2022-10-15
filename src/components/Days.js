@@ -32,11 +32,11 @@ function DaysCard() {
                 /> 
                 <div className="day-deg"> 
                     <span className="tmp-high">
-                    {Math.round(item.temp['max'] - 273.15)}
+                    {Math.round(item.temp['max'] - 273)}
                     &deg;
                     </span> 
                     <span>
-                    {Math.round(item.temp['min'] - 273.15)}
+                    {Math.round(item.temp['min'] - 273)}
                     &deg;
                     </span>
                   <div className='day-exp'>
